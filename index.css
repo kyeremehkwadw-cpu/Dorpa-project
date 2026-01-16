@@ -1,0 +1,107 @@
+body { background-color: white; font-family: Arial, Sans-Serif;
+  }
+  h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  color: darkolivegreen;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2, h3, h4, h6, p, label, b {
+  font-family: 'Poppins', sans-serif;
+}
+
+.genre-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+h5 {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ddd !important;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h5:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(65, 105, 225, 0.4);
+  border-color: royalblue !important;
+  cursor: pointer;
+}
+
+  H6{
+    font-size: 25px;
+  }
+#style{
+  color: tomato;
+}
+#work{
+  color: darkred;
+}
+#will{
+  color: darkgoldenrod;
+}
+#power{
+  color: purple;
+}
+.genre-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+h5 {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ddd !important;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(65,105,225,0.3);
+  text-align: center;
+  margin: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h5:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(65, 105, 225, 0.5);
+  cursor: pointer;
+  border-color: royalblue !important;
+}
+
+.contact-btn{
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: darkolivegreen;
+  color: white;
+  border-radius: 60px;
+  font-family: 'poppins', Sans-Serif;
+  font-weight: 450;
+  transition: all 0.3 ease;
+}
+
+
+
+.contact-btn:hover {
+  background-color: purple; 
+  transform: scale(1.1);      
+  box-shadow: 0 4px 15px rgba(65, 105, 225, 0.4);
+}
